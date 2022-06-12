@@ -3,10 +3,10 @@ import React, { useState} from 'react'
 import AddCategory from './components/AddCategory';
 import GifGrid from './components/GifGrid';
 
-const GifExpertApp = props => {
+const GifExpertApp = ({deFaultCategories=[]}) => {
   //const categorias=['Sailor Moon', 'Cowboy Bebop', 'Kimagure Orange Road 1987'];
 
-  const [categories, setCategories] = useState(['Sailor Moon', 'Cowboy Bebop', 'Kimagure']);
+  const [categories, setCategories] = useState(deFaultCategories);
   //Agrega una nueva categoría
   
   /*

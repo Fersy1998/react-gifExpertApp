@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas con GifGrid.js should  mach the snapshot 1`] = `
+<Fragment>
+  <h2>
+    Pikachu
+  </h2>
+  <p>
+    Loading
+  </p>
+  <div
+    className="GridGifs"
+  />
+</Fragment>
+`;
+
+exports[`pruebas con GifGrid.js should show and change the images when use the Custom Hook useFetchGifs.js 1`] = `
+<Fragment>
+  <h2>
+    Pikachu
+  </h2>
+  <div
+    className="GridGifs"
+  >
+    <GifGridItem
+      id="ABC"
+      key="ABC"
+      title="ABC Title"
+      url="https://google.com"
+    />
+  </div>
+</Fragment>
+`;

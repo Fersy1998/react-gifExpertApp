@@ -8,6 +8,7 @@ const AddCategory = ({setCategories}) => {
   
   const onChangeHandled=(e)=>{
     setinputValue(e.target.value);
+    //console.log("llamado a onChangeHandled");
   }
   const submitHandled=(e)=>{
     e.preventDefault();  
